@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"npx cypress run --record --key=b67756c0-94b4-4492-957d-69070c38c668 --spec cypress/integration/HariniTestSuite/*.js",
+    "build":"npx cypress run --record --key=f0994144-61f6-45eb-8c87-405f499304fe --spec cypress/integration/HariniTestSuite/*.js",
     "runheadless":"cypress run --headless",
     "cy:run:chrome":"cypress run --browser chrome"
   },
