@@ -4,5 +4,8 @@ orbs:
 workflows:
   build:
     jobs:
+      - cypress/install:
+          build: 'npm run build'
       - cypress/run:
-          yarn: true
+          requires:
+            - cypress/install
