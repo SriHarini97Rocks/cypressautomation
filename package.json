@@ -1,0 +1,19 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runheadless":"cypress run --headless",
+    "cy:run:chrome":"cypress run --browser chrome"
+  },
+  "author": "sri",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  },
+  "dependencies": {
+    "cypress-xpath": "^1.6.2"
+  }
+}
